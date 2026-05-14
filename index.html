@@ -9,9 +9,10 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Amna Jameel-portfolio</title>
-  <link rel="shortcut icon" href="dp-removebg-preview (1).png" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/dp-removebg-preview (1).png" type="image/x-icon" />
   <!-- animation  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <!-- body tag  -->
 
@@ -20,9 +21,7 @@
   <!-- ======================= Nav Bar =================== -->
   <!-- ========================================================= -->
   <nav
-    class=" m-1 md:m-2 h-15 md:h-18 rounded-4xl bg-[rgba(2,2,2,0.7)] backdrop-blur-sm bg-opacity-1 border border-gray-800 shadow-xl shadow-gray-900 flex flex-row justify-between items-center px-5 md:px-10  sticky top-2 z-50">
-
-
+    class="m-1 md:m-2 h-15 md:h-18 rounded-4xl bg-[rgba(2,2,2,0.7)] backdrop-blur-sm bg-opacity-1 border border-gray-800 shadow-xl shadow-gray-900 flex flex-row justify-between items-center px-5 md:px-10 sticky top-2 z-50">
     <!-- Logo -->
     <a href="" class="text-white text-2xl md:text-3xl font-bold">
       Amna
@@ -43,24 +42,17 @@
 
     <!-- Right Side -->
     <div class="flex items-center gap-4">
-
       <!-- Connect Button (Desktop Only Now) -->
       <a href="https://www.linkedin.com/in/amna-jameel-85210228b" target="_blank"
-        class="hidden md:inline-block text-white bg-[#FF0080]   md:p-2 md:px-5 rounded-xl font-medium hover:bg-transparent hover:text-[#FF0080] border border-[#FF0080] transition duration-300">
-        Connect
-      </a>
+        class="hidden md:inline-block text-white bg-[#FF0080] md:p-2 md:px-5 rounded-xl font-medium hover:bg-transparent hover:text-[#FF0080] border border-[#FF0080] transition duration-300">Connect</a>
 
       <!-- Hamburger (Mobile Only) -->
-      <button id="menu-btn" class="md:hidden text-white text-2xl">
-        ☰
-      </button>
-
+      <button id="menu-btn" class="md:hidden text-white text-2xl">☰</button>
     </div>
 
     <!-- Mobile Menu -->
     <div id="mobile-menu"
       class="hidden absolute top-20 left-0 w-full bg-black flex flex-col items-center gap-6 py-6 md:hidden">
-
       <a href="index.html" class="text-[#94A3B8] hover:text-[#FF0080]">Home</a>
       <a href="#Aboutme" class="text-[#94A3B8] hover:text-[#FF0080]">About</a>
       <a href="#myprojects" class="text-[#94A3B8] hover:text-[#FF0080]">Projects</a>
@@ -68,14 +60,9 @@
 
       <!-- Connect Button Inside Mobile Menu -->
       <a href="https://www.linkedin.com/in/amna-jameel-85210228b" target="_blank"
-        class="mt-4 bg-[#FF0080] text-white px-6 py-2 rounded-xl font-medium">
-        Connect
-      </a>
-
+        class="mt-4 bg-[#FF0080] text-white px-6 py-2 rounded-xl font-medium">Connect</a>
     </div>
-
   </nav>
-
 
   <!-- ========================================================= -->
   <!-- ======================= HERO SECTION =================== -->
@@ -84,16 +71,16 @@
   <section class="hero-section">
     <p
       class="text-sm z-50 m-2 mx-auto border border-[#FF0080] rounded-full md:block hidden md:w-60 text-center font-medium text-[#E2E8F5] uppercase hover:text-[#FF0080] hover:cursor-pointer relative">
-      Available for full-stack roles</p>
+      Available for frontend roles</p>
     <!-- hero imag -->
     <!-- img near contact  -->
     <img class="hidden md:block md:z-2 md:absolute md:h-[20rem] md:left-9 md:bottom-90"
-      src="dp-removebg-preview (1).png" alt="" />
+      src="images/dp-removebg-preview (1).png" alt="" />
     <!-- img in hero section  -->
-    <img class="hidden   md:block md:z-0 md:absolute md:h-[20rem] md:right-18 md:h-100 md:top-45"
-      src="dp-removebg-preview (1).png" alt="" />
+    <img class="hidden md:block md:z-0 md:absolute md:h-[20rem] md:right-18 md:h-100 md:top-45"
+      src="images/dp-removebg-preview (1).png" alt="" />
     <p
-      class="font-extrabold text-white  md:mt-18 md:w-200 md:ms-50  text-4xl sm:text-5xl md:text-8xl mx-auto md:mx-auto text-center mt-8 sm:mt-12  w-58 sm:w-4/5 ">
+      class="font-extrabold text-white md:mt-18 md:w-200 md:ms-50 text-4xl sm:text-5xl md:text-8xl mx-auto md:mx-auto text-center mt-8 sm:mt-12 w-58 sm:w-4/5">
       Building
       <span class="bg-gradient-to-r from-white to-[#FF0080] bg-clip-text text-transparent">Modern</span>
       Web Interfaces
@@ -105,22 +92,19 @@
       I’m
       <span class="bg-gradient-to-r from-white to-[#FF0080] bg-clip-text text-transparent font-extrabold">Amna
         Jameel</span>
-      , a Full-Stack Developer focused on building fast, scalable and high-performance
+      , a Frontend Developer focused on building fast, scalable and high-performance
       <span class="text-white font-semibold capitalize">web applications</span>
       using
-      <span class="text-[#FF0080]">modern frontend</span>
-      and
-      <span class="text-[#FF0080]">backend technologies.</span>
-      .
+      <span class="text-[#FF0080]">modern frontend technologies.</span>
     </p>
     <!-- hero buttons -->
     <div class="flex flex-row sm:flex-row justify-center items-center gap-3 sm:gap-5 mt-5 sm:mt-7">
       <a href="#myprojects"
-        class="bg-white text-black md:text-lg text-sm font-bold px-4 py-2 md:px-6 md:py-3 sm:p-3  sm:w-auto text-center rounded-xl hover:bg-[#FF0080] hover:text-white transition-all duration-300 ease-in active:bg-white">View
+        class="bg-white text-black md:text-lg text-sm font-bold px-4 py-2 md:px-6 md:py-3 sm:p-3 sm:w-auto text-center rounded-xl hover:bg-[#FF0080] hover:text-white transition-all duration-300 ease-in active:bg-white">View
         my Work</a>
 
       <a href="#contactMe"
-        class="text-[#FF0080] text-sm md:text-lg font-bold px-4 py-2 md:px-6 md:py-3 sm:p-3 sm:px-6  sm:w-auto text-center rounded-xl border border-[#FF0080] hover:bg-[#FF0080] hover:text-white transition-all duration-300 ease-in active:bg-white">Contact
+        class="text-[#FF0080] text-sm md:text-lg font-bold px-4 py-2 md:px-6 md:py-3 sm:p-3 sm:px-6 sm:w-auto text-center rounded-xl border border-[#FF0080] hover:bg-[#FF0080] hover:text-white transition-all duration-300 ease-in active:bg-white">Contact
         Me</a>
     </div>
   </section>
@@ -142,13 +126,15 @@
         <p class="text-gray-400 text-base ms-10 mx-4 md:ms-0 mt-8 font-semilight md:text-lg">
           Hi, I’m
           <span class="text-[#FF0080]">Amna Jameel</span>
-          , a passionate Full-Stack Developer who loves
-          <br>
-          turning ideas into complete, scalable, and user-focused
-          <br>
-          web applications. I build both frontend interfaces <br /> and backend systems,
-
-          ensuring performance, security, and <br> smooth functionality across all devices.
+          ,a passionate Frontend Developer who loves
+          <br />
+          turning ideas into modern, responsive, and user-friendly
+          <br />
+          web interfaces. I build interactive frontend experiences
+          <br />
+          using HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap,
+          <br />
+          ensuring smooth performance across all devices.
         </p>
         <!-- about card 1 2 boxex -->
         <div class="cards mt-10 flex flex-col justify-start items-center gap-5 md:gap-10 md:flex-row">
@@ -199,7 +185,6 @@
   <!-- ======================= SKILLS SECTION =================== -->
   <!-- ========================================================= -->
   <section class="skills">
-    
     <!-- skills head  -->
     <h1 class="text-4xl text-white font-medium mt-20 mx-9 italic md:text-6xl md:mt-30 md:mx-15">
       My
@@ -228,6 +213,10 @@
         <p class="text-lg font-bold my-2">Tailwind</p>
         <p class="text-medium font-semilight text-gray-500">Utility-first styling for fast, custom interfaces.</p>
       </div>
+    </div>
+
+    <!-- main div  -->
+    <div class="skills-cards flex flex-wrap justify-evenly items-center text-white mx-15 md:mt-10 md:mx-20">
       <!-- card  -->
       <div
         class="card w-55 mb-5 h-40 border border-gray-800 flex flex-col justify-center p-5 rounded-2xl bg-gray-950 cursor-pointer hover:shadow-sm shadow-[#FF0080]">
@@ -235,10 +224,7 @@
         <p class="text-lg font-bold my-2">Bootstrap</p>
         <p class="text-medium font-semilight text-gray-500">Creating fully responsive grid-based web designs.</p>
       </div>
-    </div>
 
-    <!-- main div  -->
-    <div class="skills-cards flex flex-wrap justify-evenly items-center text-white mx-15 md:mt-10 md:mx-20">
       <!-- card  -->
       <div
         class="card w-55 mb-5 h-40 border border-gray-800 flex flex-col justify-center p-5 rounded-2xl bg-gray-950 cursor-pointer hover:shadow-sm shadow-[#FF0080]">
@@ -249,23 +235,9 @@
       <!-- card  -->
       <div
         class="card w-55 mb-5 h-40 border border-gray-800 flex flex-col justify-center p-5 rounded-2xl bg-gray-950 cursor-pointer hover:shadow-sm shadow-[#FF0080]">
-        <i class="fa-solid fa-database text-3xl text-[#FF0080]"></i>
-        <p class="text-lg font-bold my-2">MySQL</p>
-        <p class="text-medium font-semilight text-gray-500">Managing relational data and database structures.</p>
-      </div>
-      <!-- card  -->
-      <div
-        class="card w-55 mb-5 h-40 border border-gray-800 flex flex-col justify-center p-5 rounded-2xl bg-gray-950 cursor-pointer hover:shadow-sm shadow-[#FF0080]">
-        <i class="fa-brands fa-php text-3xl text-[#FF0080]"></i>
-        <p class="text-lg font-bold my-2">PHP</p>
-        <p class="text-medium font-semilight text-gray-500">Server-side scripting for dynamic websites.</p>
-      </div>
-      <!-- card  -->
-      <div
-        class="card w-55 mb-5 h-40 border border-gray-800 flex flex-col justify-center p-5 rounded-2xl bg-gray-950 cursor-pointer hover:shadow-sm shadow-[#FF0080]">
-        <i class="fa-solid fa-star text-3xl text-[#FF0080]"></i>
-        <p class="text-lg font-bold my-2">jQuery</p>
-        <p class="text-medium font-semilight text-gray-500">Makes JavaScript simpler and faster.</p>
+        <i class="fa-brands fa-react text-3xl text-[#FF0080]"></i>
+        <p class="text-lg font-bold my-2">React</p>
+        <p class="text-medium font-semilight text-gray-500">Building interactive UIs with React components.</p>
       </div>
     </div>
   </section>
@@ -280,47 +252,100 @@
       <span class="text-[#FF0080]">Projects</span>
     </h1>
 
-    <div class="projects flex flex-col md:flex-row justify-evenly items-center gap-10 m-6 md:m-10">
-      <!-- project card 1 -->
+    <!-- GRID WRAPPER -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 m-6 md:m-10">
+      <!-- PROJECT 1 -->
       <div
-        class="project border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 md:p-10 hover:shadow-sm shadow-[#FF0080] w-full md:w-auto ">
-        <img class="w-full h-25 md:h-70 md:w-140 mb-6 rounded-2xl md:rounded-3xl border border-gray-800 object-cover"
-          src="Project--edgecut.png" alt="project pic" />
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover"
+          src="images/Project--edgecut.png" alt="project pic" />
 
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <p class="font-bold text-lg md:text-2xl italic">Edgecut Website</p>
-            <p class="font-normal text-md text-gray-400 py-2 md:py-5 w-full md:w-85">A professional furniture store
-              interface crafted with HTML and CSS to showcase modern product layouts.</p>
-            <p class="font-light text-gray-400">HTML/CSS</p>
-          </div>
+        <p class="font-bold text-lg md:text-xl italic">Edgecut Website</p>
 
-          <div class="w-full md:w-auto">
-            <a class="block w-full md:w-auto text-center px-7 py-2 rounded-xl bg-[#FF0080] text-lg font-medium hover:bg-gray-950 hover:border border-[#FF0080] active:bg-white active:text-[#FF0080]"
-              target="main_blank" href="https://amna-jameel.github.io/edgecut-furniture-website/">Visit</a>
-          </div>
-        </div>
+        <p class="font-normal text-sm text-gray-400 py-3">A furniture store UI built using HTML and CSS.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / CSS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/edgecut-furniture-website/">Visit</a>
       </div>
 
-      <!-- project card 2 -->
+      <!-- PROJECT 2 -->
       <div
-        class="project1 border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 md:p-10 hover:shadow-sm shadow-[#FF0080] w-full md:w-auto mt-0 md:mt-20">
-        <img class="w-full h-25 md:h-70 md:w-140 mb-6 rounded-2xl md:rounded-3xl border border-gray-800 object-cover"
-          src="Project2-burger.png" alt="project pic" />
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover"
+          src="images/Project2-burger.png" alt="project pic" />
 
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <p class="font-bold text-lg md:text-2xl italic">FastFeast Website</p>
-            <p class="font-normal text-md text-gray-400 py-2 md:py-5 w-full md:w-85">A vibrant restaurant landing page
-              built using HTML and CSS to highlight food menus and dining services.</p>
-            <p class="font-light text-gray-400">HTML/CSS</p>
-          </div>
+        <p class="font-bold text-lg md:text-xl italic">FastFeast Website</p>
 
-          <div class="w-full md:w-auto">
-            <a class="block w-full md:w-auto text-center px-7 py-2 rounded-xl bg-[#FF0080] text-lg font-medium hover:bg-gray-950 hover:border border-[#FF0080] active:bg-[#FF0080]"
-              target="main_blank" href="https://amna-jameel.github.io/FastFeast-Website/">Visit</a>
-          </div>
-        </div>
+        <p class="font-normal text-sm text-gray-400 py-3">A restaurant landing page built with HTML and CSS.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / CSS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/FastFeast-Website/">Visit</a>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover" src="images/travelly.png"
+          alt="travelly website" />
+
+        <p class="font-bold text-lg md:text-xl italic">Travelly website</p>
+
+        <p class="font-normal text-sm text-gray-400 py-3">A travel website built using HTML and CSS.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / CSS / JS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/Travelly-website/">Visit</a>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover" src="images/Cakestry.png"
+          alt="Cakestry" />
+
+        <p class="font-bold text-lg md:text-xl italic">Cakestry Bakery website</p>
+
+        <p class="font-normal text-sm text-gray-400 py-3">A modern bakery website UI built with HTML, CSS.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / CSS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/Cakestry---Bakery-Landing-Page/">Visit</a>
+      </div>
+      <!-- PROJECT 5 -->
+      <div
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover" src="images/solemate.png"
+          alt="solemate-shoes-website" />
+
+        <p class="font-bold text-lg md:text-xl italic">Solemate shoes website</p>
+
+        <p class="font-normal text-sm text-gray-400 py-3">Figma to code project.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / Tailwind CSS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/solemate-shoes-website/">Visit</a>
+      </div>
+      <!-- PROJECT 6 -->
+      <div
+        class="border border-gray-800 rounded-3xl text-white bg-gray-950 p-6 hover:shadow-sm shadow-[#FF0080] hover:-translate-y-2 transition duration-300">
+        <img class="w-full h-40 md:h-52 mb-6 rounded-2xl border border-gray-800 object-cover" src="images/Luxora.png"
+          alt="luxora-estates" />
+
+        <p class="font-bold text-lg md:text-xl italic">Luxora estates website</p>
+
+        <p class="font-normal text-sm text-gray-400 py-3">A real estate website.</p>
+
+        <p class="font-light text-gray-400 mb-4">HTML / Tailwind CSS</p>
+
+        <a class="inline-block px-6 py-2 rounded-xl bg-[#FF0080] text-sm font-medium hover:bg-gray-950 hover:border border-[#FF0080]"
+          target="_blank" href="https://amna-jameel.github.io/luxora-estates/">Visit</a>
       </div>
     </div>
   </section>
@@ -343,7 +368,7 @@
         <div
           class="text-card flex justify-center items-center absolute -top-12 border border-4 border-[#FF0080] rounded-full overflow-hidden">
           <img class="test-img h-24 sm:h-28 md:h-30 rounded-full hover:scale-110 transition-transform duration-300"
-            src="client1.jpeg" alt="Client" />
+            src="images/client1.jpeg" alt="Client" />
         </div>
         <div class="test-card mt-16 sm:mt-20 md:mt-5">
           <i class="fa-solid fa-quote-left test-icon"></i>
@@ -364,7 +389,7 @@
         <div
           class="text-card flex justify-center items-center absolute -top-12 border border-4 border-[#FF0080] rounded-full overflow-hidden">
           <img class="test-img h-24 sm:h-28 md:h-30 rounded-full hover:scale-110 transition-transform duration-300"
-            src="client2.jpg" alt="Client" />
+            src="images/client2.jpg" alt="Client" />
         </div>
         <div class="test-card mt-16 sm:mt-20 md:mt-5">
           <i class="fa-solid fa-quote-left test-icon"></i>
@@ -384,7 +409,7 @@
         <div
           class="text-card flex justify-center items-center absolute -top-12 border border-4 border-[#FF0080] rounded-full overflow-hidden">
           <img class="test-img h-24 sm:h-28 md:h-30 rounded-full hover:scale-110 transition-transform duration-300"
-            src="client3.jpg" alt="Client" />
+            src="images/client3.jpg" alt="Client" />
         </div>
         <div class="test-card mt-16 sm:mt-20 md:mt-5">
           <i class="fa-solid fa-quote-left test-icon"></i>
@@ -407,7 +432,7 @@
   <section class="contact text-white px-4 my-20" id="contactMe">
     <div
       class="border border-gray-800 bg-gradient-to-b from-gray-800 to-black mx-auto m-4 h-auto w-full md:mx-auto md:h-60 md:w-200 flex flex-col justify-center items-center rounded-4xl gap-3 md:gap-5 p-4 md:p-0">
-      <h1 class="text-2xl md:text-4xl font-bold text-center ">
+      <h1 class="text-2xl md:text-4xl font-bold text-center">
         Let's work
         <span class="text-[#FF0080]">together</span>
       </h1>
@@ -431,9 +456,8 @@
       <!-- about me footer -->
       <div class="md:w-1/3 w-full text-center md:text-left mb-5">
         <p class="font-bold text-[#FF0080] text-2xl">Amna Jameel</p>
-        <p class="font-light text-[#94A3B8] text-normal">Full-Stack Developer | BSCS ’27</p>
-        <p class="text-[#94A3B8] text-normal">Building scalable, responsive, and high-performance full-stack web
-          applications.</p>
+        <p class="font-light text-[#94A3B8] text-normal">Frontend Developer | BSCS ’27</p>
+        <p class="text-[#94A3B8] text-normal">Building fast, responsive frontend web applications.</p>
       </div>
 
       <!-- links  -->
@@ -457,7 +481,7 @@
           <p class="text-[#94A3B8]">
             <i class="fa-solid fa-envelope text-[#FF0080] text-lg hover:text-white transition duration-300"></i>
             <span class="text-white font-bold">Email:</span>
-            amnajamna04@gmail.com
+            i.amnajameel@gmail.com
           </p>
           <p class="text-[#94A3B8]">
             <i class="fa-solid fa-location-dot text-[#FF0080] hover:text-white transition duration-300"></i>
@@ -491,12 +515,12 @@
     </div>
   </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="script.js"></script><!-- JS -->
+  <script src="script.js"></script>
+  <!-- JS -->
   <script>
     const menuBtn = document.getElementById("menu-btn");
     const mobileMenu = document.getElementById("mobile-menu");
@@ -505,7 +529,6 @@
       mobileMenu.classList.toggle("hidden");
     });
   </script>
-
 </body>
 
 </html>
